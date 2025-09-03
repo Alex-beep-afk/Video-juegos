@@ -19,7 +19,7 @@ form{
     box-shadow: 3px 3px 5px 0px rgba(18, 136, 255, 0.49);
     border-radius: 5px;
     padding: 50px;
-    background-image: url('/Assets/Img/mariage.png');
+    background-image: url('../Img/mariage.png');
     background-repeat: no-repeat;
     background-position: bottom 10% right 5%;
 
