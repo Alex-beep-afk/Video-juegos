@@ -7,7 +7,7 @@ main{
 }
 
 .banner{
-    background-image: url('/Assets/Img/Pixel\ Art\ GIF.gif');
+    background-image: url('./Assets/Img/Pixel\ Art\ GIF.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
