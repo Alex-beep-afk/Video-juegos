@@ -1,0 +1,64 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    min-height: 80vh;
+    margin: 50px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 60%;
+    background-color: rgb(47 61 75 / 49%);
+    border: solid 1px rgb(33, 196, 207);
+    box-shadow: 3px 3px 5px 0px rgba(18, 136, 255, 0.49);
+    border-radius: 5px;
+    padding: 50px;
+    background-image: url('/Assets/Img/mariage.png');
+    background-repeat: no-repeat;
+    background-position: bottom 10% right 5%;
+
+
+
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        width: 80%;
+        input{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: solid 1px rgb(33, 196, 207);
+        }
+
+    }
+
+    button{
+        font-family: 'CodeNewRoman Nerd Font Mono';
+        background-color: rgb(47 61 75 / 49%);
+        color: rgb(47, 189, 224);
+        padding: 10px;
+        border-radius: 5px;
+        display: flex ;
+        align-items: center ;
+        justify-content: center;
+        gap: 10px;
+        border: solid 1px rgb(33, 196, 207);
+
+        &:hover{
+
+            background-color: rgb(33, 196, 207);
+            color: black;
+            box-shadow: 3px 3px 5px 0px rgba(21, 235, 255, 1);
+            cursor: pointer;
+
+        }
+    }
+}

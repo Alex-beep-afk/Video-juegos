@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="/Assets/css/register.css">
+        <link rel="stylesheet" href="/Assets/css/header.css">
+    <link rel="stylesheet" href="/Assets/css/footer.css">
+    <link rel="stylesheet" href="/Assets/css/main.css">
+</head>
+    <body>
+        <header>
+        <img src="/Assets/Img/Logo.png" alt="Logo du site qui représente une manette" />
+        <div class="title">Videos juegos</div>
+        <nav>
+            <a aria-current='page' href="/index.html">Acceuil</a>
+            <a href="/articles.html">Nos articles</a>
+            <a href="/register.html">S'inscrire</a>
+        </nav>
+    </header>
+
+        <main>
+            <h1>Inscrivez-vous</h1>
+            <form action="/register.html" method="post">
+                <div class="form-group">
+                    <label for="username">Nom d'utilisateur :</label>
+                    <input type="text" id="username" name="username" required placeholder="Votre nom d'utilisateur">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required placeholder="Votre adresse email" >
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" id="password" name="password" required placeholder="Votre mot de passe">
+                </div>
+
+                <button type="submit">S'inscrire<span aria-label="Icône de crayon">✏</span></button>
+
+            </form>
+        </main>
+
+        <footer>
+            <a href="/terms.html">Conditions d'utilisation</a>
+            <a href="/privacy.html">Politique de confidentialité</a>
+            <a href="/mentionLegal.html">Mentions légales</a>
+        </footer>
+     
+</body>
+</html>

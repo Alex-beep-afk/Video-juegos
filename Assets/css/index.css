@@ -1,0 +1,60 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.banner{
+    background-image: url('/Assets/Img/Pixel\ Art\ GIF.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+
+h1, h2{
+    font-family: 'BigBlueTerm437 Nerd Font Mono';
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.container-articles{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    .card{
+        width : 32%;
+        height : 40vh;
+        img{
+            object-fit: cover;
+        }
+
+    }
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    img {
+        width: 19%;
+        height: auto;
+    }
+}
